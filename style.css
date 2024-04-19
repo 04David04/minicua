@@ -1,0 +1,138 @@
+
+body{
+  display: flexbox;
+}
+.da{
+    background-color: rgb(3, 5, 83); 
+    border-radius: 50PX;
+    padding: 8px;
+    text-align: center;
+   
+  
+   }
+.da:hover{
+  opacity: 0.7;
+}
+.pa{
+    font-family: arial;
+    font-size: 16px;
+    color: #aaa;
+}
+.pe{
+  font-family: garamond;
+  font-size: 50PX;
+  text-align: center;
+  font-weight: bold;
+}
+.spa:hover{
+      color: black;
+      cursor: pointer;
+    }
+.spe:hover{
+         color: black;
+         cursor: pointer;
+    }
+  .pai{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .filho1{
+   
+    background-color: white;
+    
+  }
+  .filho2{
+    margin-left: 5%;
+    margin-top: 8%;
+    background-color: white;
+
+  }
+table tr {
+  font: 12px garamond, arial;
+  color: #fff;
+  background-color: rgb(4, 3, 71);
+  border: 15PX solid #fff;
+  text-align: left;
+  
+  
+}
+.sel{
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 12px rgb(4, 3, 71);
+}
+.sel:hover{
+  box-shadow:none;
+  padding: 24px;
+}
+.sel:active{
+  background-color: #fff;
+  border: 0;
+  color: rgb(4, 3, 71);
+}
+.se{
+  color: #fff;
+  background-color: #fff;
+}
+.imi{
+  width: 100%;
+  
+}
+.do{
+  margin-left: 5%;
+  text-align: justify;
+  color: #000;
+  padding: 2px;
+  font-size: 20px;
+  font-family: garamond, Arial, Helvetica, sans-serif;
+  border: 3px;
+  border-color: #000;
+}
+.mu{
+  color: rgb(4, 3, 250);
+  font-weight: bolder;
+}
+.du{
+  font-family: garamond, Arial, Helvetica, sans-serif;
+  background-color: rgb(238, 224, 224);
+  color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pii{
+  font-weight: bolder;
+}
+.poo{
+  font-weight: bolder;
+  color: #00f;
+}
+.autor{
+  text-align: center;
+  margin-left: 30%;
+  font-weight: bolder;
+  color: #000;
+}
+.email{
+  cursor: pointer;
+}
+.email:hover{
+  text-decoration: underline;
+}
+.but{
+  margin-top: 5px;
+  background-color: rgb(56, 3, 3);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(56, 3, 3);
+  border: none;
+}
+.but:active{
+  box-shadow: none;
+  margin-top: 8px;
+}
