@@ -1,12 +1,13 @@
 
 body{
-  display: flexbox;
+background-color: #aaa;
 }
 .da{
     background-color: rgb(3, 5, 83); 
-    border-radius: 50PX;
+    border-radius: 5PX;
     padding: 8px;
     text-align: center;
+    margin: o;
    
   
    }
@@ -33,21 +34,19 @@ body{
          cursor: pointer;
     }
   .pai{
-    margin: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 12px;
   }
   .filho1{
    
-    background-color: white;
+  
     
   }
   .filho2{
-    margin-left: 5%;
-    margin-top: 8%;
-    background-color: white;
-
+   align-content: center;
+  
+  
   }
 table tr {
   font: 12px garamond, arial;
@@ -78,6 +77,7 @@ table tr {
 }
 .imi{
   width: 100%;
+  border-radius: 1002px;
   
 }
 .do{
@@ -101,9 +101,24 @@ table tr {
   padding: 20px;
   border-radius: 5px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 12px;
+ 
 }
+.duu{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 25%;
+  margin: 4px;
+ 
+}
+
+@media (max-width: 600px){
+  .duu{
+    flex: 1 0 50%;
+  }
+}
+
 .pii{
   font-weight: bolder;
 }
@@ -135,4 +150,17 @@ table tr {
 .but:active{
   box-shadow: none;
   margin-top: 8px;
+}
+.todos{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 25%;
+  margin: 4px;
+ 
+}
+
+@media (max-width: 600px){
+  .todos{
+    flex: 1 0 50%;
+  }
 }
